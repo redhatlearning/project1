@@ -35,8 +35,8 @@ public class Main {
 
       // operator doesn't match any case constant (+, -, *, /)
       default:
-        System.out.printf("Error! operator is not correct");
-        return;
+        System.out.printf("Error!Wrong operator");
+        oeturn;
     }
 
     System.out.println(first + " " + operator + " " + second + " = " + result);
